@@ -1,10 +1,11 @@
-﻿# Factorial Calculator
+﻿# C++ Programs
 
-This repository contains a simple C++ program that computes the factorial of a non-negative integer in the range 0 to 20.
+This repository contains simple C++ programs for various calculations.
 
 ## Files
 
-- factorial.cpp: C++ source code for the factorial program.
+- **factorial.cpp**: Computes the factorial of a non-negative integer (0 to 20).
+- **profitandlose.cpp**: Calculates profit/loss and percentage based on cost price and selling price.
 
 ## Build
 
@@ -12,17 +13,24 @@ Use a C++ compiler such as g++ or cl:
 
 ```powershell
 g++ factorial.cpp -o factorial.exe
+g++ profitandlose.cpp -o profitandlose.exe
 ```
 
 ## Run
 
+### Factorial Calculator
 ```powershell
 ./factorial.exe
 ```
+Enter a non-negative integer between 0 to 20 when prompted.
 
-Enter a non-negative integer between 0 and 20 when prompted.
+### Profit and Loss Calculator
+```powershell
+./profitandlose.exe
+```
+Enter the cost price and selling price when prompted.
 
 ## Notes
 
-- The program uses `unsigned long long` and is limited to 20 to avoid overflow.
-
+- **factorial.cpp**: Uses `unsigned long long` and is limited to 20 to avoid overflow.
+- **profitandlose.cpp**: Calculates profit/loss and percentage based on the difference between selling price and cost price.
